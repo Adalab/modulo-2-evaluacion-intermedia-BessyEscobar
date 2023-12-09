@@ -1,0 +1,20 @@
+.testbtn {
+    color: white;
+    background-color: aquamarine;
+    display: flex;
+    width: 4rem;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.key {
+    border: solid grey;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.numbertry {
+    border: solid grey;
+    padding: 0.2rem;
+}
