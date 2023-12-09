@@ -9,11 +9,26 @@
   <body>
     <h1>Adivina el número</h1>
     <p>Introduce aquí tu número</p>
-    <input type="number" name="" id="" />
-    <button class="testbtn">Prueba</button>
+    <input
+      type="number"
+      class="js_numberInput"
+      name=""
+      id="userGuess"
+      value=""
+      min="1"
+      max="100"
+    />
+    <input
+      class="testbtn js_numberBtn"
+      type="button"
+      name=""
+      id=""
+      value="Filtrar"
+    />
+    <!-- <button class="testbtn js_testbtn">Prueba</button> -->
 
-    <div class="key">Pista: Escribe el número y dale a Prueba</div>
-    <div class="numbertry">Número de intentos: 0</div>
+    <div class="key js_key">Pista: Escribe el número y dale a Prueba</div>
+    <div class="numbertry js_numbertry">Número de intentos: 0</div>
 
     <script src="./JS/main.js"></script>
   </body>
