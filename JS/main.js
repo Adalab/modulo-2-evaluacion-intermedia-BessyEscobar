@@ -27,8 +27,6 @@ function writeClue(message) {
 }
 
 function checkNumber(userNumber , randomNumber) {
-   
-  console.log(userNumber, randomNumber);
 
   if( isNaN(userNumber) ) {
     writeClue('El número debe estar entre 1 y 100'); 
