@@ -4,32 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evaluación Intermedia Módulo 2</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style/main.css" />
   </head>
   <body>
-    <h1>Adivina el número</h1>
-    <p>Introduce aquí tu número</p>
-    <input
-      type="number"
-      class="js_numberInput"
-      name=""
-      id="userGuess"
-      value=""
-      min="1"
-      max="100"
-    />
-    <input
-      class="testbtn js_numberBtn"
-      type="button"
-      name=""
-      id=""
-      value="Filtrar"
-    />
-    <!-- <button class="testbtn js_testbtn">Prueba</button> -->
+    <header>
+      <h1>Adivina el número</h1>
+    </header>
+    <main>
+      <form action="form js__form">
+        <label for="userNumber">Introduce aquí tu número</label>
+        <input
+          type="number"
+          class="js__userNumberInput"
+          placeholder="Ej. 33"
+          id="userNumber"
+          value=""
+          min="1"
+          max="100"
+        />
+        <input
+          class="js__testButton"
+          type="button"
+          name=""
+          id=""
+          value="Prueba"
+        />
 
-    <div class="key js_key">Pista: Escribe el número y dale a Prueba</div>
-    <div class="numbertry js_numbertry">Número de intentos: 0</div>
-
-    <script src="./JS/main.js"></script>
+        <div class="key js__clueBox">
+          Pista: Escribe el número y dale a Prueba
+        </div>
+        <div class="numbertry">
+          Número de intentos: <span class="js__triesBox">0</span>
+        </div>
+      </form>
+    </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>
